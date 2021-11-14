@@ -10,7 +10,7 @@ const App = () => {
     return (
     <div className="App">
         {post.map(post =>
-        <Post post={post}/>
+        <Post post={post} key={post.id}/>/>
         )}
     </div>
     )
